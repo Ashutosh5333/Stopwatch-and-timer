@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100%;
+}
+
+
+.container-nav{
+    border: 1px solid green;
+   height: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: green;
+}
+
+
+.container-nav > div{
+    margin: auto;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
