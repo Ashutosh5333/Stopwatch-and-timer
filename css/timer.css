@@ -4,8 +4,22 @@
     box-sizing: border-box;
 }
 
+h1{
+  text-align: center;
+   margin-top: 40px;
+   color: green;
+   font-size: 5rem;
+}
 
 .Timercontainer{
  border: 2px solid black;
   height: 100vh; 
+}
+
+.timer{
+  border: 2px solid black;
+   height: 70vh;
+   width: 70vw;
+   margin: auto;
+  margin-top: 50px;
 }
