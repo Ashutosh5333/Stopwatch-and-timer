@@ -8,7 +8,6 @@ function stopInterval() {
 }
 
 
-
 var reset = document.getElementById('reset')
 
 reset.addEventListener('click', function(){

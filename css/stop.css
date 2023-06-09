@@ -6,7 +6,7 @@
 
 
 .Stopwatch{
- border: 2px solid black;
+ /* border: 2px solid black; */
   height: 100vh; 
 }
 
@@ -38,7 +38,7 @@ p {
 }
 
 
-#seconds, #tens, #min,#b{
+#seconds, #minisec, #min,#b{
   font-size:2em;
 }
 
