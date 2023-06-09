@@ -14,12 +14,66 @@ h1{
 .Timercontainer{
  border: 2px solid black;
   height: 100vh; 
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .timer{
-  border: 2px solid black;
+  /* border: 2px solid black; */
    height: 70vh;
    width: 70vw;
    margin: auto;
   margin-top: 50px;
+  
+  
 }
+
+
+
+#sec, #hour, #min,#b{
+  font-size:2em;
+}
+
+.time-name{
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+   width: 30vw;
+  justify-content: space-around;
+
+}
+
+.time-box{
+  /* border: 2px solid red; */
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+   width: 30vw;
+  justify-content: space-around;
+
+}
+
+#hour{
+  text-align: center;
+  font-size: 1.5rem;
+  border: none;
+}
+
+#minute{
+  text-align: center;
+  font-size: 1.5rem; 
+  border: none;
+}
+
+#sec{
+  text-align: center;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.semi{
+  text-align: center;
+    margin-top: 0px;
+}
+
+
+
