@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Stopwatch{
+ border: 2px solid black;
+  height: 100vh; 
+}
+
+
+.Stopwatch > h1{
+   text-align: center;
+    margin-top: 40px;
+    color: green;
+    font-size: 5rem;
+}
+
+/* -------- main stop watch -------- */
+
+.stopbox{
+  width: 70vw;
+  margin: auto;
+  margin-top: 40px;
+ height: 60vh;
+}
+
+
+p {
+  color: rgb(0, 4, 7);
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+
+#seconds, #tens, #b{
+  font-size:2em;
+}
+
+.button-card{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+
+}
+
+
+#start  {
+  border: none;
+  width: 140px;
+  height: 140px;
+  border-radius: 80px;
+  background-color:#17a69d;
+   color: #fff;
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+#start:hover{
+  background-color: black;
+}
+
+#stop{
+  border: none;
+  width: 140px;
+  height: 140px;
+  border-radius: 80px;
+  background-color:#c7dd47;
+   color: gray;
+   font-weight: 600;
+   font-size: 1.2rem
+}
+
+#stop:hover{
+  background-color: black;
+}
+
+#reset{
+  border: none;
+  width: 140px;
+  height: 140px;
+  border-radius: 80px;
+  background-color:#4387d0;
+   color: #fff;
+   font-weight: 600;
+   font-size: 1.2rem
+}
+
+
+#reset:hover{
+  background-color: black;
+}
