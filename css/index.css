@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+h1{
+    text-align: center;
+    color: green;
+    margin-top: 10%;
+    font-size: 4rem;
+}
 
 .container{
     height: 100%;
